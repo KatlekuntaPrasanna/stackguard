@@ -57,31 +57,30 @@ npm start
 > Runs the app in development mode.  
 > Open [http://localhost:3000] to view it in your browser.
 
-
-## Folder Structure
-
- stackguard/
+## 📁 Project Structure
+```
+stackguard/
 │
 ├── public/
-│   └── index.html                # Root HTML file loaded by React
+│ └── index.html
 │
 ├── src/
-│   ├── components/               # All React components
-│   │   ├── RegisterPage.js       # Registration page
-│   │   ├── SignInPage.js         # Sign-in page
-│   │   ├── Dashboard.js          # Protected dashboard page
-│   │   └── ProtectedRoute.js     # Route protection logic
-│   │
-│   ├── styles/                   # CSS styling for each page
-│   │   ├── auth.css
-│   │   └── dashboard.css
-│   │
-│   ├── App.js                    # Main React router and app structure
-│   └── index.js                  # Entry point of React app
+│ ├── components/
+│ │ ├── RegisterPage.js
+│ │ ├── SignInPage.js
+│ │ ├── Dashboard.js
+│ │ └── ProtectedRoute.js
+│ │
+│ ├── styles/
+│ │ ├── auth.css
+│ │ └── dashboard.css
+│ │
+│ ├── App.js
+│ └── index.js
 │
-├── package.json                  # Project dependencies and scripts
-└── README.md                     # Project documentation
-
+├── package.json
+└── README.md
+```
 
 ## How It Works
 
