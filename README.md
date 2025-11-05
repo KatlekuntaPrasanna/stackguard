@@ -40,7 +40,7 @@ It focuses on providing a seamless and clean authentication flow while demonstra
 
 Follow these steps to run StackGuard locally 
 
-### 1️Clone the Repository
+### Clone the Repository
 
 git clone https://github.com/KatlekuntaPrasanna/stackguard.git
 cd stackguard
@@ -60,27 +60,27 @@ npm start
 
 ## Folder Structure
 
-stackguard/
+ stackguard/
 │
 ├── public/
-│   └── index.html
+│   └── index.html                # Root HTML file loaded by React
 │
 ├── src/
-│   ├── components/
-│   │   ├── RegisterPage.js
-│   │   ├── SignInPage.js
-│   │   ├── Dashboard.js
-│   │   └── ProtectedRoute.js
+│   ├── components/               # All React components
+│   │   ├── RegisterPage.js       # Registration page
+│   │   ├── SignInPage.js         # Sign-in page
+│   │   ├── Dashboard.js          # Protected dashboard page
+│   │   └── ProtectedRoute.js     # Route protection logic
 │   │
-│   ├── styles/
+│   ├── styles/                   # CSS styling for each page
 │   │   ├── auth.css
 │   │   └── dashboard.css
 │   │
-│   ├── App.js
-│   └── index.js
+│   ├── App.js                    # Main React router and app structure
+│   └── index.js                  # Entry point of React app
 │
-├── package.json
-└── README.md
+├── package.json                  # Project dependencies and scripts
+└── README.md                     # Project documentation
 
 
 ## How It Works
